@@ -5,7 +5,7 @@
             fetch="https://github.com/jhonnytech90" />
   
   <!-- Trees -->
-  <project path="device/asus/A001D" name="android_asus_A001D" remote="jhonnytech90" revision="main" />
+  <project path="device/asus/A001D" name="device_asus_A001D" remote="jhonnytech90" revision="main" />
   <project path="vendor/asus/A001D" name="vendor_asus_A001D" remote="jhonnytech90" revision="main" />
   <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="jhonnytech90" revision="main" />
 </manifest>
