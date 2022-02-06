@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- 
+     <remote name="jhonnytech90"
+            fetch="https://github.com/jhonnytech90" />
  <!-- Trees -->
- <project path="device/asus/A001D" name="jhonnytech90/android_device_asus_A001D.git" remote="github" revision="lineage-18.1" />
- <project path="vendor/asus/A001D" name="jhonnytech90/vendor_asus_A001D.git" remote="github" revision="lineage-18.1" />
- <project path="kernel/asus/A001D" name="jhonnytech90/kernel_asus_A001D.git" remote="github" revision="11" />
+ <project path="device/asus/A001D" name="jhonnytech90/android_device_asus_A001D.git" remote="jhonnytech90" revision="lineage-18.1" />
+ <project path="vendor/asus/A001D" name="jhonnytech90/vendor_asus_A001D.git" remote="jhonnytech90" revision="lineage-18.1" />
+ <project path="kernel/asus/A001D" name="jhonnytech90/kernel_asus_A001D.git" remote="jhonnytech90" revision="11" />
