@@ -5,9 +5,8 @@
  <!-- Trees -->
  <project path="device/asus/A001D" name="jhonnytech90/android_device_asus_A001D.git" remote="jhonnytech90" revision="dotOS" />
  <project path="vendor/asus/A001D" name="jhonnytech90/vendor_asus_A001D.git" remote="jhonnytech90" revision="lineage-18.1" />
- <project path="vendor/dot" name="jhonnytech90/android_vendor_dot.git" remote="jhonnytech90" revision="dot11" />
  <project path="kernel/asus/A001D" name="jhonnytech90/kernel_asus_A001D.git" remote="jhonnytech90" revision="11" />
      
-      <remove-project name="vendor/dot" />
-      <project path="vendor/dot" name="jhonnytech90/android_vendor_dot.git" remote="jhonnytech90" revision="dot11" />
-     </manifest>
+ <remove-project name="android_vendor_dot"/>
+ <project path="vendor/dot" name="jhonnytech90/android_vendor_dot.git" remote="jhonnytech90" revision="dot11" />
+ </manifest>
